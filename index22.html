@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Nёrds</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="CSS2/style2.css">
+</head>
+<body>
+<header class="main-header">
+<div class="container">
+  <nav class="main-nav">
+     <a class="logo-nav" href="index2.html">
+       <img src="img/nerds-logo-png.png" width="160" 
+        height="65" alt="Логотип Nёrds">
+     </a>
+      <ul>
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li class="active"><a>Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <div class="user-block">
+         <a href="#">Корзина</a>
+     </div>
+ </nav>
+  <h1 class="header-h1">Магазин готовых шаблонов</h1>
+</div>
+</header>
+<main>
+  <div class="flex-min container">
+    <div class="body-nav">
+    <form method="get">
+      <h2>Стоимость:</h2>
+        <div class="range-filter">
+              <div class="range-controls">
+         <div class="scale">
+             <div class="bar" style="width:70%"></div>
+        </div>
+            <div class="tagle tagle-min"></div>
+            <div class="tagle tagle-max"></div>
+       </div>
+          <div class="price-controls">
+             <label for="min-pr">от
+                <input class="min-price" type="text" id="min-pr" value="0"></label>
+             <label for="max-pr">до
+                <input class="max-price" type="text" id="max-pr" value="15 000"></label>
+          </div>
+       </div>
+            <fieldset class="grid">
+              <legend>Сетка:</legend>
+                 <label for="check1"><input type="radio" id="check1"
+                  checked>Адаптивная</label>
+                 <label for="check2"><input type="radio" id="check2">Фиксированная</label>
+                 <label for="check3"><input type="radio" id="check3">Резиновая</label>
+             </fieldset>
+             <fieldset class="grid-2">
+               <legend>Особенности:</legend>
+                 <label for="check4"><input type="checkbox" id="check4">Слайдер</label>
+                 <label for="check5"><input type="checkbox" id="check5">Блок преимуществ</label>
+                 <label for="check6"><input type="checkbox" id="check6">Новости</label>
+                 <label for="check7"><input type="checkbox" id="check7">Галерея</label>
+                 <label for="check8"><input type="checkbox" id="check8">Корзина</label>
+                 <button class="btn-cat">Показать</button>
+            </fieldset>
+         </form>
+       </div>
+     <section class="main-galery">
+         <h2>Сортировать:</h2>
+           <div class="galer-item">
+              <div><img src="img/img-sedona-jpg.png" width="360" height="576" alt="Седона">
+                <article class="orders">
+                   <b>Sedona</b>
+                   <p>Информационный сайт для туристов</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+             </div>
+           </div>
+           <div class="galer-item">
+              <div><img src="img/img-barbershop-jpg.png" width="360" height="576" alt="Барбершоп">
+                <article class="orders">
+                   <b>Barbershop</b>
+                   <p>Сайт салона красоты. Для мужчин, да.</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+              </div>
+          </div>
+           <div class="galer-item">
+              <div><img src="img/img-aplus-jpg.png" width="360" height="576" alt="Учёба">
+                <article class="orders">
+                   <b>A plus</b>
+                   <p>Лендинг курсов повышения квалификации</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+              </div>
+          </div>
+        <div class="but-nav">
+         <button class="btno btn-1">1</button>
+         <button class="btno">2</button>
+         <button class="btno">3</button>
+         <button class="btno btn-2">Следующая</button>
+      </div>   
+    </section>
+     <section class="main-galery2">
+        <ul>
+           <li><a class="proso" href="#">По цене</a></li>
+           <li><a class="proso" href="#">По типу</a></li>
+           <li><a class="proso" href="#">По названию</a></li>
+           <li><a class="unicod unicod-1" href="#"></a></li>
+           <li><a class="unicod unicod-2" href="#"></a></li>
+       </ul>
+         <div class="galer-item2">
+            <div><img src="img/img-pink-jpg.png" width="360" height="576" alt="Учёба">
+                <article class="orders">
+                   <b>Pink App</b>
+                   <p>Продуктовый лендинг приложения для iOS и Android</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+            </div>
+        </div>
+         <div class="galer-item2">
+            <div><img src="img/img-mishka-jpg.png" width="360" height="576" alt="Учёба">
+                <article class="orders">
+                   <b>Mishka</b>
+                   <p>Интернет-магазин вязаных игрушек.</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+            </div>
+        </div>
+         <div class="galer-item2">
+            <div><img src="img/img-kvast-jpg.png" width="360" height="576" alt="Учёба">
+               <article class="orders">
+                   <b>Кваст</b>
+                   <p>Промо-сайт производителя крафтового кваса</p>
+                   <a class="btn">9 900 руб.</a>
+                </article>
+            </div>
+        </div>
+    </section>
+ </div>
+<div class="maps">
+  <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123713!2d30.320894615722327!3d59.93879686904836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1520053973776" width="1500" height="416" frameborder="0" style="border:0" allowfullscreen>
+    <div class="container">
+      <article class="address">
+        <h2>NЁRDS DESIGN STUDIO</h2>
+        <p>191186, Санкт-Петербург<br>
+        ул. Б. Конюшенная, д. 19/8<br>
+        тел. +7(812)275-75-75</p>
+        <a class="btn" href="#">Напишите нам</a>
+     </article>   
+   </div>
+  </iframe>
+</div> 
+</main>
+<footer>
+<div class="main-footering container">
+   <div class="social">
+     <a class="social-img social-vk" href="#">В контакте</a>
+     <a class="social-img social-fb" href="#">Фейсбук</a>
+     <a class="social-img social-ins" href="#">Инстаграм</a>
+   </div>
+   <section class="footer-info">
+     <h2>Давайте дружить, это выгодно!</h2>
+     <p>Скидка 10% для друзей из социальных сетей.</p>
+   </section>
+</div>
+</footer>
+ <div class="modal-window">
+  <button class="modal-close">Закрыть</button>
+   <legend>Напишите нам</legend>
+    <form method="post">
+      <div class="flex-moda">
+        <span class="min-56">
+          <label for="mod-h1">Ваше имя:</label><br>
+          <input class="mod-inp" type="text" id="mod-h1" placeholder="Представьтесь, пожалуйста">
+        </span>
+        <span>
+          <label for="mod-h1">Ваш e-mail:</label><br>
+          <input class="mod-inp" type="text" id="mod-h2" placeholder="Для отправки ответа">
+       </span>
+     </div>
+       <label for="mod-h3">Текст письма:</label>
+       <textarea class="mod-inp" id="mod-h3" rows="8">В   свободной форме</textarea>
+    <button class="btn">Отправить</button>
+   </form>
+ </div>
+</body>
+</html>
